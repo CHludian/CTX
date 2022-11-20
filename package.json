@@ -1,0 +1,36 @@
+{
+  "name": "token_ctx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "tailwind": "npx tailwindcss -i .\\src\\assets\\css\\tailwind_org.css -o .\\src\\assets\\css\\tailwind_dist.css --watch",
+    "postcss": "postcss .\\src\\assets\\css\\tailwind_org.css -o .\\src\\assets\\css\\tailwind_dist.css --watch",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.0",
+    "core-js": "^3.8.3",
+    "daisyui": "^2.24.0",
+    "element-plus": "^2.2.14",
+    "ethers": "^5.6.9",
+    "gh-pages": "^4.0.0",
+    "pinia": "^2.0.19",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.8",
+    "css-loader": "^6.7.1",
+    "postcss": "^8.4.16",
+    "postcss-import": "^15.0.0",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.1.8"
+  }
+}
